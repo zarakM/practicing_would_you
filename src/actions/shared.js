@@ -1,7 +1,7 @@
 import { getInitialData } from '../initialData'
 import { addUserQuestion, saveUserAnswer, receiveUsers } from '../actions/users'
 import { addQuestion, receiveQuestions, saveQuestionAnswer } from '../actions/questions'
-import { _saveQuestionAnswer, _saveQuestion } from '../utils/_DATA'
+import { _saveQuestionAnswer, _saveQuestion } from '../_DATA'
 
 export function handleInitialData() {
     return (dispatch) => {
